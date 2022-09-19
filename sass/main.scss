@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap');
+
+
+/* Global Classes */
+
+button, button:focus{
+    outline:none !important;
+    box-shadow: none !important;
+
+}
+
+/* Variables */
+
+$font-baloo:"Baloo Thambi 2", cursive;
+$font-raleway:"Raleway", cursive;
+$font-rubik:"Rubik", cursive;
+$color-primary: #3c81a8;
+$color-second: #2d4e53;
+$color-yellow: #5e4824;
+
+
+
+/* Typography Classes */
+.font-baloo{
+    font-family: $font-baloo;
+}
+.font-rale{
+    font-family: $font-raleway;
+}
+.font-rubik{
+    font-family: $font-rubik;
+}
+
+.font-size-12{
+    font-size: 12px;
+}
+font-size-14{
+    font-size: 14px;
+}
+font-size-16{
+    font-size: 16px;
+}
+font-size-20{
+    font-size: 20px;
+}
+
+/* Color Template */
+.color-primary{
+    color: $color-primary;
+}
+
+.color-primary-bg{
+    background: $color-primary;
+}
+.color-second{
+    color: $color-second;
+}
+
+.color-second-bg{
+    background: $color-second;
+}
+
+.color-yellow{
+    color: $color-yellow;
+}
+
+.color-yellow-bg{
+    background: $color-yellow;
+}
+
+/* Top Sale Template */
+#top-sale {
+    .owl-carousel .item .product a{
+        overflow: hidden;
+    }
+    .owl-carousel .item .product img{
+        transition: transform .5s ease; 
+    }
+    .owl-carousel .item .product img:hover{
+       transform:scale(1.1); 
+    }
+    .owl-carousel .owl-nav button{
+        position: absolute;
+        top: 30%;
+        outline: none;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        left: 0;     
+    }
+    .owl-carousel .owl-nav button.owl-prev span,
+    .owl-carousel .owl-nav button.owl-next span {
+        font-size: 35px;
+        color: #2d4e53;
+        padding: 0 2rem;
+    }
+    .owl-carousel .owl-nav button.owl-prev span{
+        margin-left: -2.1rem;
+    }
+
+    .owl-carousel .owl-nav button.owl-next{
+        right: 0;        
+
+    }
+    .owl-carousel .owl-nav button.owl-next span{
+        margin-right: -2.2rem;
+    }
+
+
+}
+
+/*   Special Price Section Template */
+
+ .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+/*  Coming Soon Section / Owl Carousel */
+#coming-soon {
+    .owl-carousel .item .product a{
+        overflow: hidden;
+    }
+    .owl-carousel .item .product img{
+        transition: transform .5s ease; 
+    }
+    .owl-carousel .item .product img:hover{
+       transform:scale(1.1); 
+    }
+    .owl-carousel .owl-nav button{
+        position: absolute;
+        top: 30%;
+        outline: none;
+    }
+    .owl-carousel .owl-nav button.owl-prev{
+        left: 0;     
+    }
+    .owl-carousel .owl-nav button.owl-prev span,
+    .owl-carousel .owl-nav button.owl-next span {
+        font-size: 35px;
+        color: #2d4e53;
+        padding: 0 2rem;
+    }
+    .owl-carousel .owl-nav button.owl-prev span{
+        margin-left: -2.1rem;
+    }
+
+    .owl-carousel .owl-nav button.owl-next{
+        right: 0;        
+
+    }
+    .owl-carousel .owl-nav button.owl-next span{
+        margin-right: -2.2rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
